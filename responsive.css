@@ -1,0 +1,149 @@
+/* Responsive PC or Laptop Size:
+1200px, 1080px */
+
+@media screen and (max-width: 1200px) {
+    /* Main Section */
+    .main-section .sidebar ul button{
+        width: 230px;  
+    }
+
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 9em;
+    }
+    
+}
+
+@media screen and (max-width: 1080px) {
+    /* Main Section */
+    .main-section .sidebar ul button{
+        width: 200px;  
+    }
+
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 7em;
+    }
+    
+}
+
+
+
+
+/* Responsive Tablet Size: 
+800px, 768px */
+@media screen and (max-width: 800px) {
+    /* Main Section */
+    .main-section .sidebar ul button{
+        width: 130px;  
+    }
+
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 3em;
+    }
+
+    .main-section .sidebar .dropdown-menu{
+        left: 80px;  
+    }
+
+    .main-section .sidebar .dropdown-menu li a{
+        width: 70px;   
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Main Section */
+    .main-section .sidebar ul button{
+        width: 140px;   
+    }
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 4em;
+     }
+
+     .main-section .sidebar .dropdown-menu{
+        left: 80px;  
+    }
+
+     .main-section .sidebar .dropdown-menu li a{
+        width: 80px;   
+    }
+
+}
+
+
+
+
+
+/* Mobile Responsive Size:
+640px, 575px, 360px*/
+@media screen and (max-width: 640px) {
+    /* Main Section */
+    .main-section .sidebar ul button{
+        width: 90px;   
+    }
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 1em;
+     }
+
+     .main-section .sidebar .dropdown-menu{
+        left: 30x;  
+    }
+
+     .main-section .sidebar .dropdown-menu li a{
+        width: 70px;   
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    /* Navbar Main Menu */
+    .main-menu .navbar-toggler{
+        color: #FFFFFF;
+    }
+
+    /* Main Section */
+        .vh-100 {
+            height: 0vh!important;
+        }
+
+    .main-menu .navbar .offcanvas{
+        background: #ADADAD;
+        width: 50%;
+    }
+
+    .main-section .navbar .offcanvas{
+        background: #9398BF;
+        width: 50%;
+    }
+
+    .main-section .sidebar ul button{
+        width: 200px;  
+    }
+
+    .main-section .sidebar .dropdown-menu{
+        left: 100px;  
+    }
+
+     .main-section .sidebar .dropdown-menu li a{
+        width: 120px;   
+    }
+
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 7em;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .main-section .sidebar ul button{
+        width: 130px;  
+    }
+
+    .main-section .sidebar .dropdown-toggle::after {
+        margin-left: 3em;
+    }
+    
+    .main-section .sidebar .dropdown-menu{
+        left: 70px;  
+    }
+}
